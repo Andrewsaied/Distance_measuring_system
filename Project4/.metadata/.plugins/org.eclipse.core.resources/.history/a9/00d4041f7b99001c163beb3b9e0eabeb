@@ -1,0 +1,22 @@
+/*
+ * Ultrasonic.C
+ *
+ *  Created on: Mar 1, 2022
+ *      Author: Andrew
+ */
+
+
+#include "GPIO_Interface.h"
+#include "icu.h"
+#include "Ultrasonic.h"
+#include <avr/io.h> /* To use ICU/Timer1 Registers */
+#include "common_macros.h" /* To use the macros like SET_BIT */
+
+
+void Ultrasonic_init(void)
+{
+	Icu_ConfigType config= {F_CPU_8,RISING};
+	Icu_init(config);
+
+}
+

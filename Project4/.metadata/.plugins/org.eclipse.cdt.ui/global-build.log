@@ -1,0 +1,948 @@
+18:09:33 **** Build of configuration Debug for project p4 ****
+make all 
+Building file: ../GPIO_Program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO_Program.d" -MT"GPIO_Program.o" -c -o "GPIO_Program.o" "../GPIO_Program.c"
+In file included from ../GPIO_Program.c:14:
+../GPIO_Interface.h:18:25: error: GPIO_Privet.h: No such file or directory
+../GPIO_Program.c: In function 'GPIO_setupPinDirection':
+../GPIO_Program.c:37: error: 'DDRA' undeclared (first use in this function)
+../GPIO_Program.c:37: error: (Each undeclared identifier is reported only once
+../GPIO_Program.c:37: error: for each function it appears in.)
+../GPIO_Program.c:38: error: 'DDRB' undeclared (first use in this function)
+../GPIO_Program.c:39: error: 'DDRC' undeclared (first use in this function)
+../GPIO_Program.c:40: error: 'DDRD' undeclared (first use in this function)
+../GPIO_Program.c: In function 'GPIO_writePin':
+../GPIO_Program.c:73: error: 'PORTA' undeclared (first use in this function)
+../GPIO_Program.c:74: error: 'PORTB' undeclared (first use in this function)
+../GPIO_Program.c:75: error: 'PORTC' undeclared (first use in this function)
+../GPIO_Program.c:76: error: 'PORTD' undeclared (first use in this function)
+../GPIO_Program.c: In function 'GPIO_readPin':
+../GPIO_Program.c:112: error: 'PINA' undeclared (first use in this function)
+../GPIO_Program.c:113: error: 'PINB' undeclared (first use in this function)
+../GPIO_Program.c:114: error: 'PINC' undeclared (first use in this function)
+../GPIO_Program.c:115: error: 'PIND' undeclared (first use in this function)
+../GPIO_Program.c: In function 'GPIO_ToggelPin':
+../GPIO_Program.c:132: error: 'PORTA' undeclared (first use in this function)
+../GPIO_Program.c:133: error: 'PORTB' undeclared (first use in this function)
+../GPIO_Program.c:134: error: 'PORTC' undeclared (first use in this function)
+../GPIO_Program.c:135: error: 'PORTD' undeclared (first use in this function)
+../GPIO_Program.c: In function 'GPIO_setupPortDirection':
+../GPIO_Program.c:167: error: 'DDRA' undeclared (first use in this function)
+../GPIO_Program.c:171: error: 'DDRB' undeclared (first use in this function)
+../GPIO_Program.c:175: error: 'DDRC' undeclared (first use in this function)
+../GPIO_Program.c:179: error: 'DDRD' undeclared (first use in this function)
+../GPIO_Program.c: In function 'GPIO_writePort':
+../GPIO_Program.c:199: error: 'PORTA' undeclared (first use in this function)
+../GPIO_Program.c:200: error: 'PORTB' undeclared (first use in this function)
+../GPIO_Program.c:201: error: 'PORTC' undeclared (first use in this function)
+../GPIO_Program.c:202: error: 'PORTD' undeclared (first use in this function)
+../GPIO_Program.c: In function 'GPIO_readPort':
+../GPIO_Program.c:224: error: 'PINA' undeclared (first use in this function)
+../GPIO_Program.c:225: error: 'PINB' undeclared (first use in this function)
+../GPIO_Program.c:226: error: 'PINC' undeclared (first use in this function)
+../GPIO_Program.c:227: error: 'PIND' undeclared (first use in this function)
+make: *** [GPIO_Program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:09:35 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../GPIO_Program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO_Program.d" -MT"GPIO_Program.o" -c -o "GPIO_Program.o" "../GPIO_Program.c"
+In file included from ../GPIO_Program.c:14:
+../GPIO_Interface.h:18:25: error: GPIO_Privet.h: No such file or directory
+../GPIO_Program.c: In function 'GPIO_setupPinDirection':
+../GPIO_Program.c:37: error: 'DDRA' undeclared (first use in this function)
+../GPIO_Program.c:37: error: (Each undeclared identifier is reported only once
+../GPIO_Program.c:37: error: for each function it appears in.)
+../GPIO_Program.c:38: error: 'DDRB' undeclared (first use in this function)
+../GPIO_Program.c:39: error: 'DDRC' undeclared (first use in this function)
+../GPIO_Program.c:40: error: 'DDRD' undeclared (first use in this function)
+../GPIO_Program.c: In function 'GPIO_writePin':
+../GPIO_Program.c:73: error: 'PORTA' undeclared (first use in this function)
+../GPIO_Program.c:74: error: 'PORTB' undeclared (first use in this function)
+../GPIO_Program.c:75: error: 'PORTC' undeclared (first use in this function)
+../GPIO_Program.c:76: error: 'PORTD' undeclared (first use in this function)
+../GPIO_Program.c: In function 'GPIO_readPin':
+../GPIO_Program.c:112: error: 'PINA' undeclared (first use in this function)
+../GPIO_Program.c:113: error: 'PINB' undeclared (first use in this function)
+../GPIO_Program.c:114: error: 'PINC' undeclared (first use in this function)
+../GPIO_Program.c:115: error: 'PIND' undeclared (first use in this function)
+../GPIO_Program.c: In function 'GPIO_ToggelPin':
+../GPIO_Program.c:132: error: 'PORTA' undeclared (first use in this function)
+../GPIO_Program.c:133: error: 'PORTB' undeclared (first use in this function)
+../GPIO_Program.c:134: error: 'PORTC' undeclared (first use in this function)
+../GPIO_Program.c:135: error: 'PORTD' undeclared (first use in this function)
+../GPIO_Program.c: In function 'GPIO_setupPortDirection':
+../GPIO_Program.c:167: error: 'DDRA' undeclared (first use in this function)
+../GPIO_Program.c:171: error: 'DDRB' undeclared (first use in this function)
+../GPIO_Program.c:175: error: 'DDRC' undeclared (first use in this function)
+../GPIO_Program.c:179: error: 'DDRD' undeclared (first use in this function)
+../GPIO_Program.c: In function 'GPIO_writePort':
+../GPIO_Program.c:199: error: 'PORTA' undeclared (first use in this function)
+../GPIO_Program.c:200: error: 'PORTB' undeclared (first use in this function)
+../GPIO_Program.c:201: error: 'PORTC' undeclared (first use in this function)
+../GPIO_Program.c:202: error: 'PORTD' undeclared (first use in this function)
+../GPIO_Program.c: In function 'GPIO_readPort':
+../GPIO_Program.c:224: error: 'PINA' undeclared (first use in this function)
+../GPIO_Program.c:225: error: 'PINB' undeclared (first use in this function)
+../GPIO_Program.c:226: error: 'PINC' undeclared (first use in this function)
+../GPIO_Program.c:227: error: 'PIND' undeclared (first use in this function)
+make: *** [GPIO_Program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:10:07 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../GPIO_Program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO_Program.d" -MT"GPIO_Program.o" -c -o "GPIO_Program.o" "../GPIO_Program.c"
+In file included from ../GPIO_Program.c:14:
+../GPIO_Interface.h:18:25: error: GPIO_Privet.h: No such file or directory
+make: *** [GPIO_Program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:10:22 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../GPIO_Program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO_Program.d" -MT"GPIO_Program.o" -c -o "GPIO_Program.o" "../GPIO_Program.c"
+In file included from ../GPIO_Program.c:14:
+../GPIO_Interface.h:18:25: error: GPIO_Privet.h: No such file or directory
+make: *** [GPIO_Program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:10:59 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../GPIO_Program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO_Program.d" -MT"GPIO_Program.o" -c -o "GPIO_Program.o" "../GPIO_Program.c"
+In file included from ../GPIO_Program.c:14:
+../GPIO_Interface.h:18:25: error: GPIO_Privet.h: No such file or directory
+make: *** [GPIO_Program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:11:48 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../GPIO_Program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO_Program.d" -MT"GPIO_Program.o" -c -o "GPIO_Program.o" "../GPIO_Program.c"
+In file included from ../GPIO_Program.c:14:
+../GPIO_Interface.h:18:25: error: GPIO_Privet.h: No such file or directory
+make: *** [GPIO_Program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:11:57 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../GPIO_Program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO_Program.d" -MT"GPIO_Program.o" -c -o "GPIO_Program.o" "../GPIO_Program.c"
+Finished building: ../GPIO_Program.c
+ 
+Building file: ../LCD_Program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"LCD_Program.d" -MT"LCD_Program.o" -c -o "LCD_Program.o" "../LCD_Program.c"
+In file included from ../LCD_Program.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../LCD_Program.c: In function 'LCD_intgerToString':
+../LCD_Program.c:144: warning: implicit declaration of function 'itoa'
+Finished building: ../LCD_Program.c
+ 
+Building file: ../icu.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"icu.d" -MT"icu.o" -c -o "icu.o" "../icu.c"
+../icu.c: In function 'Icu_setCallBack':
+../icu.c:82: warning: function return types not compatible due to 'volatile'
+Finished building: ../icu.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./icu.o ./main.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o:(.init9+0x0): undefined reference to `main'
+make: *** [p4.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:12:09 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./icu.o ./main.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o:(.init9+0x0): undefined reference to `main'
+make: *** [p4.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:12:46 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./icu.o ./main.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o:(.init9+0x0): undefined reference to `main'
+make: *** [p4.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:13:21 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:9: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./icu.o ./main.o   
+Finished building target: p4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S p4.elf  >"p4.lss"
+Finished building: p4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    8098 bytes (49.4% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:14:01 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    8098 bytes (49.4% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:25:23 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    8098 bytes (49.4% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:25:52 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    8098 bytes (49.4% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:05:34 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../LCD_Program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"LCD_Program.d" -MT"LCD_Program.o" -c -o "LCD_Program.o" "../LCD_Program.c"
+In file included from ../LCD_Program.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../LCD_Program.c: In function 'LCD_intgerToString':
+../LCD_Program.c:144: warning: implicit declaration of function 'itoa'
+Finished building: ../LCD_Program.c
+ 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./icu.o ./main.o   
+Finished building target: p4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S p4.elf  >"p4.lss"
+Finished building: p4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    8098 bytes (49.4% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:05:42 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    8098 bytes (49.4% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:24:17 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./icu.o ./main.o   
+./main.o: In function `main':
+../main.c:18: undefined reference to `Ultrasonic_init'
+../main.c:25: undefined reference to `Ultrasonic_readDistance'
+make: *** [p4.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:24:56 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./icu.o ./main.o   
+./main.o: In function `main':
+../main.c:18: undefined reference to `Ultrasonic_init'
+../main.c:25: undefined reference to `Ultrasonic_readDistance'
+make: *** [p4.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:25:00 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./icu.o ./main.o   
+./main.o: In function `main':
+../main.c:18: undefined reference to `Ultrasonic_init'
+../main.c:25: undefined reference to `Ultrasonic_readDistance'
+make: *** [p4.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:25:08 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./icu.o ./main.o   
+./main.o: In function `main':
+../main.c:18: undefined reference to `Ultrasonic_init'
+../main.c:25: undefined reference to `Ultrasonic_readDistance'
+make: *** [p4.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:26:03 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./icu.o ./main.o   
+./main.o: In function `main':
+../main.c:18: undefined reference to `Ultrasonic_init'
+../main.c:25: undefined reference to `Ultrasonic_readDistance'
+make: *** [p4.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:48:49 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../GPIO_Program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GPIO_Program.d" -MT"GPIO_Program.o" -c -o "GPIO_Program.o" "../GPIO_Program.c"
+Finished building: ../GPIO_Program.c
+ 
+Building file: ../LCD_Program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"LCD_Program.d" -MT"LCD_Program.o" -c -o "LCD_Program.o" "../LCD_Program.c"
+In file included from ../LCD_Program.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../LCD_Program.c: In function 'LCD_intgerToString':
+../LCD_Program.c:144: warning: implicit declaration of function 'itoa'
+Finished building: ../LCD_Program.c
+ 
+Building file: ../Ultrasonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Ultrasonic.d" -MT"Ultrasonic.o" -c -o "Ultrasonic.o" "../Ultrasonic.c"
+In file included from ../Ultrasonic.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Ultrasonic.c
+ 
+Building file: ../icu.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"icu.d" -MT"icu.o" -c -o "icu.o" "../icu.c"
+../icu.c: In function 'Icu_setCallBack':
+../icu.c:82: warning: function return types not compatible due to 'volatile'
+Finished building: ../icu.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./Ultrasonic.o ./icu.o ./main.o   
+Finished building target: p4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S p4.elf  >"p4.lss"
+Finished building: p4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9824 bytes (60.0% Full)
+(.text + .data + .bootloader)
+
+Data:        289 bytes (28.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:48:57 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9824 bytes (60.0% Full)
+(.text + .data + .bootloader)
+
+Data:        289 bytes (28.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:49:49 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9824 bytes (60.0% Full)
+(.text + .data + .bootloader)
+
+Data:        289 bytes (28.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:50:03 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9824 bytes (60.0% Full)
+(.text + .data + .bootloader)
+
+Data:        289 bytes (28.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:50:13 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./Ultrasonic.o ./icu.o ./main.o   
+Finished building target: p4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S p4.elf  >"p4.lss"
+Finished building: p4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9822 bytes (59.9% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (28.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:50:18 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9822 bytes (59.9% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (28.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:50:56 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9822 bytes (59.9% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (28.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:52:03 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9822 bytes (59.9% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (28.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:52:55 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9822 bytes (59.9% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (28.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:55:43 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9822 bytes (59.9% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (28.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:56:16 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9822 bytes (59.9% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (28.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:56:17 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9822 bytes (59.9% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (28.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:57:05 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./Ultrasonic.o ./icu.o ./main.o   
+Finished building target: p4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S p4.elf  >"p4.lss"
+Finished building: p4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9826 bytes (60.0% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (28.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:57:08 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9826 bytes (60.0% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (28.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:57:36 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./Ultrasonic.o ./icu.o ./main.o   
+Finished building target: p4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S p4.elf  >"p4.lss"
+Finished building: p4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9826 bytes (60.0% Full)
+(.text + .data + .bootloader)
+
+Data:        287 bytes (28.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:57:51 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./Ultrasonic.o ./icu.o ./main.o   
+Finished building target: p4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S p4.elf  >"p4.lss"
+Finished building: p4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9828 bytes (60.0% Full)
+(.text + .data + .bootloader)
+
+Data:        289 bytes (28.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:59:15 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:16: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./Ultrasonic.o ./icu.o ./main.o   
+Finished building target: p4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S p4.elf  >"p4.lss"
+Finished building: p4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9844 bytes (60.1% Full)
+(.text + .data + .bootloader)
+
+Data:        291 bytes (28.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:59:18 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9844 bytes (60.1% Full)
+(.text + .data + .bootloader)
+
+Data:        291 bytes (28.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:59:41 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:16: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./Ultrasonic.o ./icu.o ./main.o   
+Finished building target: p4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S p4.elf  >"p4.lss"
+Finished building: p4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9828 bytes (60.0% Full)
+(.text + .data + .bootloader)
+
+Data:        291 bytes (28.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:59:44 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9828 bytes (60.0% Full)
+(.text + .data + .bootloader)
+
+Data:        291 bytes (28.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:00:43 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../Ultrasonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Ultrasonic.d" -MT"Ultrasonic.o" -c -o "Ultrasonic.o" "../Ultrasonic.c"
+In file included from ../Ultrasonic.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Ultrasonic.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./Ultrasonic.o ./icu.o ./main.o   
+Finished building target: p4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S p4.elf  >"p4.lss"
+Finished building: p4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9828 bytes (60.0% Full)
+(.text + .data + .bootloader)
+
+Data:        289 bytes (28.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:00:48 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9828 bytes (60.0% Full)
+(.text + .data + .bootloader)
+
+Data:        289 bytes (28.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:01:13 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Building file: ../Ultrasonic.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Ultrasonic.d" -MT"Ultrasonic.o" -c -o "Ultrasonic.o" "../Ultrasonic.c"
+In file included from ../Ultrasonic.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Ultrasonic.c
+ 
+Building target: p4.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,p4.map -mmcu=atmega16 -o "p4.elf"  ./GPIO_Program.o ./LCD_Program.o ./Ultrasonic.o ./icu.o ./main.o   
+Finished building target: p4.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S p4.elf  >"p4.lss"
+Finished building: p4.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9828 bytes (60.0% Full)
+(.text + .data + .bootloader)
+
+Data:        289 bytes (28.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:01:16 **** Incremental Build of configuration Debug for project p4 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 p4.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9828 bytes (60.0% Full)
+(.text + .data + .bootloader)
+
+Data:        289 bytes (28.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

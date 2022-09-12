@@ -1,0 +1,22 @@
+/*
+ * main.c
+ *
+ *  Created on: Mar 1, 2022
+ *      Author: Andrew
+ */
+
+#include "Ultrasonic.h"
+#include "LCD_Interface.h"
+#include "icu.h"
+#include <avr/io.h>
+
+
+void main(void)
+{
+	LCD_init();
+	Ultrasonic_init();
+	while(1)
+	{
+
+	}
+}
